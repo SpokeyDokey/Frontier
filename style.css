@@ -1,0 +1,353 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Mar 23, 2015, 3:16:56 PM
+    Author     : Dan
+*/
+*{
+ margin:0;
+ padding: 0;
+}
+  header, nav, aside, article, footer, section {
+  display: block;
+
+  }
+
+  figure{
+  position: relative;
+  vertical-align: middle;
+  }
+
+  figcaption{
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 20%;
+  padding: .5%;
+  font-family: 'Smokum', Georgia, Serif;
+  color: #952706;
+  font-size: 6em;
+  text-shadow: 2px 2px black;
+  }
+
+  body{
+  text-align: center;
+  background-image: url("Frontier_images/wood084.jpg");
+  }
+
+  body article{
+  text-align: left;
+  }
+
+  header{
+  display: inline-block;
+  overflow:hidden;
+  margin:0 auto;
+  border:none;
+  max-height: 99%;
+  max-width: 99%;
+  background-color: rgba(250,240,230,.0);
+  }
+  nav{
+  margin:0 auto;
+  height: 100%;
+  min-height: 20px;
+  background-color: burlywood;
+  border:solid 2px #4c2e16;
+  border-radius: 20px;
+  padding: 1%;
+  }
+  nav a{
+  display: block;
+  margin:0 auto;
+  height: auto;
+  width: 14.28%;
+  float: left;
+  text-decoration: none;
+  outline: none;
+  text-align: center;
+  font-family: 'Bitter', serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: darkred;
+  }
+
+  nav a:hover{
+  text-decoration: none;
+  font-family: 'Bitter', serif;
+  font-style: italic;
+  font-weight:bold;
+  color: firebrick;
+  }
+
+  #mininav{
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  margin:0 auto;
+  height:2%;
+  width: 40%;
+  background-color: firebrick;
+  padding: 1%;
+  }
+
+  #mininav a{
+    display: block;
+    margin:0 auto;
+    height: auto;
+    width: 19%;
+    float: left;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .75em;
+    color: white;
+    font-weight: bold;
+  }
+
+
+  article a{
+  outline: none;
+  font-family: 'Bitter', Georgia, Serif;
+  font-size: 1.1em;
+  color: darkred;
+  }
+
+  article a:hover{
+    font-style: italic;
+    outline: none;
+    font-family: 'Bitter', Georgia, Serif;
+    font-size: 1.1em;
+    color: firebrick;
+  }
+
+  article a:visited{
+    outline: none;
+    font-family: 'Bitter', Georgia, Serif;
+    font-size: 1.1em;
+    color: purple;
+  }
+
+  div * p {
+    text-indent: 5%;
+}
+
+  #wrapper{
+  width: 80%;
+  margin:0 auto;
+  background-color: firebrick;
+  color: burlywood;
+  box-shadow:-8px 8px 10px -1px black;
+  padding: 2%;
+  overflow: hidden;
+  }
+
+  #spillwrapper{
+    width: 80%;
+    margin:0 auto;
+    background-color: firebrick;
+    color: burlywood;
+    box-shadow:-8px 8px 10px -1px black;
+    padding: 2%;
+    overflow: visible;
+  }
+
+  h1{
+  font-size: 1.5em;
+  font-family: 'Smokum', Georgia, Serif;
+  text-decoration: none;
+  margin-bottom: .5em;
+  }
+
+  a h1{
+  font-size: 3em;
+  text-decoration: none;
+  color: black;
+  font-family: 'Smokum', Georgia, Serif;
+  margin-bottom: 0;
+  }
+
+  .menudrop{
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1em;
+  }
+
+  .menudropitem{
+  padding: 0 1%;
+  width: 150%;
+  background-color: rgba( 178,34,34,.7);
+  font-size: 3em;
+  text-decoration: none;
+  color: black;
+  font-family: 'Smokum', Georgia, Serif;
+  }
+
+   ul{
+  list-style-position: inside;
+  }
+
+  hr{
+   color: firebrick;
+   margin-top:2em;
+   margin-bottom: 2em;
+   border-top: dotted 1px;
+  }
+
+  .column1{
+  display: block;
+  position: relative;
+  padding: 1.5%;
+  z-axis: 2;
+  background-color: rgba(250,240,230, .7);
+  color: black;
+  font-size: 1.1em;
+  width: 60%;
+  float: left;
+  margin-top: 2%;
+  border-radius: 10px;
+  }
+
+  .column2{
+  display: block;
+  position: relative;
+  padding: 1.5%;
+  z-axis: 2;
+  background-color: rgba(250,240,230,.7);
+  color: black;
+  font-size: 1.2em;
+  width: 33%;
+  margin-top: 2%;
+  float: right;
+  border-radius: 10px;
+  }
+
+  .center{
+  display: block;
+  position: relative;
+  padding: 1.5%;
+  z-axis: 2;
+  background-color: rgba(250,240,230, .7);
+  color: black;
+  font-size: 1em;
+  font-family: georgia, serif, arial;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 2%;
+  border-radius: 10px;
+  }
+
+  footer{
+  margin: 0 auto;
+  padding: .5em;
+  font-weight: bold;
+  background: white;
+  background: rgba(255,255,255,.2);
+  color: darkred;
+  font-family: sans-serif;
+  font-size: .8em;
+  font-style: italic;
+  height: 100%;
+  width: 50%;
+  border-radius: 10px;
+  text-align: center;
+  }
+
+  table.thumbs{
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  table.thumbs td{
+  position: relative;
+  padding: 0 2px;
+  }
+
+  table.thumbs img.small{
+  width: 100px;
+  height:100px;
+  }
+
+  /* Large images in left two columns */
+  table.thumbs img.left {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  visibility: hidden;
+  }
+
+  /* Large images in right two columns */
+  table.thumbs img.right {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  z-index: 10;
+  visibility: hidden;
+  }
+
+
+  /* Hover on any table cell */
+ table.thumbs td:hover img.left,
+ table.thumbs td:hover img.right,
+ table.thumbs td:hover img.bottomright,
+ table.thumbs td:hover img.bottomleft{
+visibility: visible;
+  }
+
+  #imgleft{
+  width: 100%;
+  height: 33%;
+  margin-bottom: 6px;
+  }
+
+  #imgleft img{
+  margin-right: 6px;
+  }
+
+  #imgleft p{
+  text-indent: 5%;
+  margin-right: 45%;
+  }
+
+  #imgright{
+  width: 100%;
+  height: 33%;
+  float: right;
+  text-align: right;
+  margin-bottom: 6px;
+  }
+
+  #imgright img{
+  margin-left: 6px;
+  }
+
+  #imgright p{
+  text-indent: 5%;
+  margin-left: 50%;
+  }
+
+  #imgleft2{
+  width: 100%;
+  height: 33%;
+  text-align: inherit;
+  margin-bottom: 6px;
+  float: left;
+  }
+
+  #imgleft2 img{
+  margin-right: 6px;
+  }
+
+  #imgleft2 p{
+  text-indent: 5%;
+  margin-right: 65%;
+  float:right;
+  }
